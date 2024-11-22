@@ -1,0 +1,70 @@
+.header {
+    background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+  }
+  
+  .logoHeader {
+    display: flex;
+    width: 23vw;
+    justify-content: space-around;
+    align-items: center;
+  
+    img {
+      width: 20%;
+    }
+  
+    h1 {
+      font-size: 30px;
+      color: #fff;
+    }
+  }
+  
+  .navHeader {
+    width: 30vw;
+  
+    ul {
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+    }
+  
+    .link {
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none;
+    }
+  }
+  
+  .barraDeBusca {
+    border: solid 2px white;
+    border-radius: 20px;
+    margin-right: 1%;
+    width: 17vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    input {
+      outline: none;
+      background-color: transparent;
+      border: none;
+      font-size: 10px;
+      padding-left: 6px;
+  
+      &::placeholder {
+        color: #fff;
+        font-size: 20px;
+      }
+    }
+  
+    button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  
