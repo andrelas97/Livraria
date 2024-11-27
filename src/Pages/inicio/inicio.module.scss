@@ -5,4 +5,46 @@
     background-repeat: no-repeat;
     height: 88vh;
     background-size: contain;
+    display: flex;
+    align-items: center;
+    h2{
+        color: white;
+        margin-left: 150px;
+        font-size: 26px;
+    }
+}
+.devoDoar{
+    height: 80vh;
+    div{
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        h2{
+            font-size: 30px;
+            margin-left: 60px;
+            color:  #005695;
+        }
+    }
+}
+.boxCard{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    article{
+        background-color:#0157944D;
+        width: 20%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        p{
+            text-align: center;
+            width: 70%;
+            font-size: 20px;
+        }
+
+    }
 }
